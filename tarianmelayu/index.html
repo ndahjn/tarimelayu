@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarian Melayu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tarian Melayu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tarian">Macam-Macam Tarian</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="text-center bg-light p-5">
+        <div class="container">
+            <h1 class="display-4"><b>Selamat Datang di Website Tarian Melayu</b></h1>
+            <p class="lead"><b>Temukan keindahan dan kekayaan budaya tarian Melayu</b></p>
+        </div>
+    </section>
+
+    <!-- Pendahuluan -->
+    <section id="pendahuluan" class="container py-5">
+        <h2 class="text-center mb-4">Pendahuluan</h2>
+        <p class="lead">Tarian Melayu merupakan salah satu warisan budaya yang sangat berharga. Setiap gerakan dalam tarian Melayu memiliki makna dan filosofi tersendiri, yang mencerminkan kehidupan dan nilai-nilai masyarakat Melayu. Dalam tarian-tarian ini, digunakan berbagai gerakan yang melambangkan keanggunan, kebersamaan, serta spiritualitas. Mari kita lihat lebih dekat beberapa tarian Melayu yang terkenal beserta teknik-tekniknya.</p>
+    </section>
+
+    <!-- Macam-Macam Tarian -->
+    <section id="tarian" class="container py-5">
+        <h2 class="text-center mb-4">Macam-Macam Tarian Melayu</h2>
+        <div class="row">
+            <!-- Tarian Zapin -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="IlustrasiTarianMelayu/Zapin.jpg" class="card-img-top" alt="Tari Zapin">
+                    <div class="card-body">
+                        <h5 class="card-title">Tari Zapin</h5>
+                        <p class="card-text">Tari Zapin adalah tarian tradisional Melayu yang biasanya diiringi dengan alat musik gambus.</p>
+                        <h6>Teknik-teknik Tari Zapin:</h6>
+                        <ul>
+                            <li><b>Gerak Asli</b>: Gerakan dasar yang melibatkan langkah-langkah kecil dan cepat.</li>
+                            <li><b>Gerak Tunjang</b>: Teknik menginjak-injak ringan di atas lantai yang diiringi musik gambus.</li>
+                            <li><b>Gerak Rengkuh</b>: Gerakan memutar tubuh dengan lengan yang terbuka lebar.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarian Joget -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="IlustrasiTarianMelayu/joget.jpg" class="card-img-top" alt="Tari Joget">
+                    <div class="card-body">
+                        <h5 class="card-title">Tari Joget</h5>
+                        <p class="card-text">Tari Joget merupakan salah satu tarian Melayu yang penuh energi dan kegembiraan.</p>
+                        <h6>Teknik-teknik Tari Joget:</h6>
+                        <ul>
+                            <li><b>Langkah Silang</b>: Gerakan silang kaki yang cepat dan dinamis.</li>
+                            <li><b>Gerak Leher</b>: Memutar dan menundukkan kepala dengan ritme yang sinkron dengan tubuh.</li>
+                            <li><b>Gerak Lengan Mengayun</b>: Lengan diayunkan dengan lembut untuk mengikuti ritme musik yang cepat.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarian Mak Yong -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="IlustrasiTarianMelayu/Mak-yong.jpg" class="card-img-top" alt="Tari Mak Yong">
+                    <div class="card-body">
+                        <h5 class="card-title">Tari Mak Yong</h5>
+                        <p class="card-text">Tari Mak Yong adalah tarian klasik yang memadukan unsur teater, tarian, dan nyanyian.</p>
+                        <h6>Teknik-teknik Tari Mak Yong:</h6>
+                        <ul>
+                            <li><b>Gerak Kipas</b>: Penggunaan kipas sebagai properti untuk menambah dramatisasi gerakan.</li>
+                            <li><b>Gerak Sembah</b>: Gerakan memberi salam dengan tangan yang diangkat secara anggun ke depan dada.</li>
+                            <li><b>Gerak Melenggok</b>: Tubuh digerakkan dengan lentur mengikuti irama musik yang lambat.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Maps -->
+<section id="location" class="p-5 text-center">
+    <div class="container">
+        <h2>Lokasi Kepulauan Riau</h2>
+        <div id="map" style="height: 400px; width: 100%;"></div>
+    </div>
+</section>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+
+    <!-- About Section -->
+    <section id="about" class="bg-dark text-light p-5 text-center">
+        <div class="container">
+            <h2>Tentang Tarian Melayu</h2>
+            <p>Tarian Melayu adalah bagian dari kekayaan budaya yang mencerminkan keanggunan, kearifan lokal, dan sejarah panjang masyarakat Melayu. Setiap tarian memiliki cerita dan nilai yang disampaikan kepada penontonnya.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light p-3 text-center">
+        <p>&copy; 2024 Tarian Melayu | All rights reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
